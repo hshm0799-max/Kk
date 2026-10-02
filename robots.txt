@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hrzoteck.online/sitemap.xml
