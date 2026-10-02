@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="HR Digital favicon">
+  <rect width="64" height="64" rx="16" fill="#050508"/>
+  <rect x="10" y="10" width="44" height="44" rx="12" fill="none" stroke="#00f0ff" stroke-width="2"/>
+  <path d="M18 45V19h7l9 15 9-15h7v26h-7V29l-9 15-9-15v16z" fill="#00f0ff"/>
+</svg>

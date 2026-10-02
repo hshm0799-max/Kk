@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://hrzoteck.online/sitemap.xml
+Sitemap: https://hshm0799-max.github.io/Kk/sitemap.xml
