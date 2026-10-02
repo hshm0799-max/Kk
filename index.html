@@ -4,331 +4,112 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HR Website Creator Agency & Digital Marketing</title>
+    
     <!-- Google Fonts for Luxury Typography -->
     <link rel="preconnect" href="https://googleapis.com">
     <link rel="preconnect" href="https://gstatic.com" crossorigin>
-    <link href="https://googleapis.com/css2?family=Orbitron:wght@500;800&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="family">
+    <link href="https://googleapis.com/css2?family=Orbitron:wght@500;800&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     
-    <style>
-        /* --- PSYCHOLOGICAL PREMIUM THEME (CYBERPUNK NOIR) --- */
-        :root {
-            --bg-pure: #050508;
-            --bg-card: #0b0c16;
-            --neon-blue: #00f0ff;
-            --neon-purple: #bd00ff;
-            --neon-lime: #39ff14;
-            --text-main: #f0f1f7;
-            --text-muted: #8b92b5;
-            --font-display: 'Orbitron', sans-serif;
-            --font-body: 'Plus Jakarta Sans', sans-serif;
-        }
+    <!-- Linking External CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            scroll-behavior: smooth;
-        }
+    <!-- SCARCITY PSYCHOLOGY BANNER -->
+    <div class="scarcity-ticker">
+        <div class="ticker-wrap">
+            <div class="ticker-item">🔥 ONLY 3 PREMIUM DEVELOPMENT SLOTS LEFT FOR THIS MONTH</div>
+            <div class="ticker-item">⚡ 50% LAUNCH DISCOUNT EXPIRING IN 14 HOURS</div>
+            <div class="ticker-item">🤖 GEO & AEO COMPLIANT WEBSITES READY TO RANK TOP</div>
+            <div class="ticker-item">🔥 ONLY 3 PREMIUM DEVELOPMENT SLOTS LEFT FOR THIS MONTH</div>
+        </div>
+    </div>
 
-        body {
-            background-color: var(--bg-pure);
-            color: var(--text-main);
-            font-family: var(--font-body);
-            overflow-x: hidden;
-        }
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="agency-badge">HR Website Creator Agency</div>
+            <h1 class="hero-title">We Build Digital Empires That <span>Rank At The Top</span></h1>
+            <p class="hero-subtitle">
+                Ordinary web design templates are obsolete. We engineer Next-Gen, Mobile-Optimized, and 
+                SEO/GEO/AEO integrated systems that force Google and AI Engines to rank your brand #1.
+            </p>
+            <div class="cta-group">
+                <a href="https://wa.me." class="btn-neon" target="_blank">Instant WhatsApp Quote</a>
+                <a href="tel:+917061899614" class="btn-neon btn-purple">Call Authority Matrix</a>
+            </div>
+        </div>
+    </section>
 
-        /* --- SCARCITY PSYCHOLOGY BANNER --- */
-        .scarcity-ticker {
-            background: linear-gradient(90deg, var(--neon-purple), #500075);
-            color: #fff;
-            padding: 10px 0;
-            font-family: var(--font-display);
-            font-size: 0.85rem;
-            letter-spacing: 2px;
-            overflow: hidden;
-            position: relative;
-            z-index: 100;
-            border-bottom: 1px solid var(--neon-purple);
-        }
+    <!-- PREMIUM OFFERS MATRIX -->
+    <section class="services-section">
+        <div class="section-header">
+            <h2>Select Your <span>Digital Infrastructure</span></h2>
+            <p class="section-desc">Uncompromising performance. Artistically coded for dominance.</p>
+        </div>
+        
+        <div class="grid-container">
+            <!-- Card 1: E-Commerce -->
+            <div class="premium-card">
+                <div class="card-content">
+                    <span class="card-badge">E-Commerce Architecture</span>
+                    <h3 class="card-title">Digital Shop Matrix</h3>
+                    <p class="card-text">High-speed cart, automated security nodes, payment gateways, and advanced checkout psychology layers.</p>
+                    <div class="price-box">
+                        <span class="old-price">₹45,000</span>
+                        <span class="new-price">₹24,999</span>
+                    </div>
+                    <a href="https://wa.me" class="card-link">CLAIM VALUE OFFER &rarr;</a>
+                </div>
+            </div>
 
-        .ticker-wrap {
-            display: flex;
-            white-space: nowrap;
-            animation: marquee 25s linear infinite;
-        }
+            <!-- Card 2: School/Hospital -->
+            <div class="premium-card">
+                <div class="card-content">
+                    <span class="card-badge">Institution Elite</span>
+                    <h3 class="card-title">School / Hospital Portal</h3>
+                    <p class="card-text">Comprehensive data architecture, easy system appointments, dashboard reporting panels, and mobile responsive optimization.</p>
+                    <div class="price-box">
+                        <span class="old-price">₹55,000</span>
+                        <span class="new-price">₹29,999</span>
+                    </div>
+                    <a href="https://wa.me" class="card-link">CLAIM VALUE OFFER &rarr;</a>
+                </div>
+            </div>
 
-        .ticker-item {
-            padding: 0 2rem;
-            font-weight: 800;
-        }
+            <!-- Card 3: Corporate -->
+            <div class="premium-card">
+                <div class="card-content">
+                    <span class="card-badge">Corporate Grid</span>
+                    <h3 class="card-title">Office / Portfolio Layer</h3>
+                    <p class="card-text">Hyper-clean structural layouts, sleek vector animations, and aggressive organic conversion layouts.</p>
+                    <div class="price-box">
+                        <span class="old-price">₹30,000</span>
+                        <span class="new-price">₹14,999</span>
+                    </div>
+                    <a href="https://wa.me" class="card-link">CLAIM VALUE OFFER &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        @keyframes marquee {
-            0% { transform: translateX(0); }
-            100% { transform: translateX(-50%); }
-        }
+    <!-- FOOTER WITH ADDRESS & SOCIAL LINKS -->
+    <footer class="footer-agency">
+        <div class="footer-grid">
+            <div class="footer-info">
+                <h3>HR Agency Matrix</h3>
+                <p>Commanding digital supremacy from Ranchi to the global server networks.</p>
+                <p class="address-text">📍 Sarda Charan Mitra Lane, Harmu Rd, behind Physics Wallah Vidyapeeth Coaching Center, Kumhartoli, Ranchi, Jharkhand 834001</p>
+            </div>
+            <div class="footer-info">
+                <h3>Secure Gateway Channels</h3>
+                <a href="tel:+917061899614" class="contact-link">📞 +91 7061899614</a>
+                <a href="mailto:hshm0799@gmail.com" class="contact-link">✉️ hshm0799@gmail.com</a>
+                <a href="mailto:hrzoteck@gmail.com" class="contact-link">✉️ hrzoteck@gmail.com</a>
+                <a href="https://facebook.com" class="contact-link purple-link" target="_blank">🌐 Corporate Facebook Grid</a>
+            </div>
+        </div>
+    </footer>
 
-        /* --- HERO SECTION WITH INTERACTIVE 3D/MESH EMULATION --- */
-        .hero {
-            position: relative;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 2rem;
-            background: radial-gradient(circle at 50% 50%, #120a2b 0%, var(--bg-pure) 70%);
-            overflow: hidden;
-        }
-
-        /* Simulated Abstract Mesh background via CSS lines */
-        .hero::before {
-            content: '';
-            position: absolute;
-            width: 200%;
-            height: 200%;
-            background-image: 
-                linear-gradient(rgba(0, 240, 255, 0.03) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(0, 240, 255, 0.03) 1px, transparent 1px);
-            background-size: 50px 50px;
-            transform: perspective(500px) rotateX(60deg);
-            top: -50%;
-            animation: gridMove 20s linear infinite;
-            z-index: 1;
-        }
-
-        @keyframes gridMove {
-            0% { background-position: 0 0; }
-            100% { background-position: 0 1000px; }
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 10;
-            max-width: 1000px;
-        }
-
-        .agency-badge {
-            font-family: var(--font-display);
-            color: var(--neon-blue);
-            border: 1px solid var(--neon-blue);
-            padding: 6px 16px;
-            border-radius: 50px;
-            font-size: 0.8rem;
-            text-transform: uppercase;
-            letter-spacing: 3px;
-            box-shadow: 0 0 15px rgba(0, 240, 255, 0.2);
-            display: inline-block;
-            margin-bottom: 2rem;
-            animation: pulseGlow 2s infinite alternate;
-        }
-
-        @keyframes pulseGlow {
-            0% { box-shadow: 0 0 10px rgba(0, 240, 255, 0.2); }
-            100% { box-shadow: 0 0 25px rgba(0, 240, 255, 0.5); }
-        }
-
-        /* Text Scramble & Slide Simulation */
-        .hero-title {
-            font-family: var(--font-display);
-            font-size: 4rem;
-            font-weight: 800;
-            line-height: 1.1;
-            letter-spacing: -1px;
-            margin-bottom: 1.5rem;
-            background: linear-gradient(135deg, #fff 30%, var(--text-muted) 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .hero-title span {
-            background: linear-gradient(90deg, var(--neon-blue), var(--neon-purple));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            position: relative;
-        }
-
-        .hero-subtitle {
-            font-size: 1.25rem;
-            color: var(--text-muted);
-            max-width: 700px;
-            margin: 0 auto 3rem auto;
-            line-height: 1.6;
-        }
-
-        /* --- MAGNETIC NEON CTA BUTTON --- */
-        .cta-group {
-            display: flex;
-            gap: 1.5rem;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-
-        .btn-neon {
-            position: relative;
-            font-family: var(--font-display);
-            background: transparent;
-            color: #fff;
-            padding: 18px 40px;
-            font-size: 1rem;
-            font-weight: 700;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            border: none;
-            cursor: pointer;
-            border-radius: 4px;
-            overflow: hidden;
-            transition: all 0.3s ease;
-            text-decoration: none;
-        }
-
-        .btn-neon::before {
-            content: '';
-            position: absolute;
-            top: 0; left: 0; right: 0; bottom: 0;
-            border-radius: 4px;
-            padding: 2px; 
-            background: linear-gradient(90deg, var(--neon-blue), var(--neon-purple));
-            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-            -webkit-mask-composite: destination-out;
-            mask-composite: exclude;
-        }
-
-        .btn-neon:hover {
-            background: linear-gradient(90deg, var(--neon-blue), var(--neon-purple));
-            box-shadow: 0 0 35px rgba(0, 240, 255, 0.6);
-            transform: translateY(-3px);
-        }
-
-        /* --- PREMIUM CONVERSION GRID (OFFERS) --- */
-        .services-section {
-            padding: 6rem 2rem;
-            background: var(--bg-pure);
-            position: relative;
-        }
-
-        .section-header {
-            text-align: center;
-            margin-bottom: 4rem;
-        }
-
-        .section-header h2 {
-            font-family: var(--font-display);
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
-
-        .section-header h2 span {
-            color: var(--neon-lime);
-        }
-
-        .grid-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-        }
-
-        .premium-card {
-            background: var(--bg-card);
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            border-radius: 12px;
-            padding: 2.5rem;
-            position: relative;
-            transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-            overflow: hidden;
-        }
-
-        .premium-card::before {
-            content: '';
-            position: absolute;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background: radial-gradient(rgba(189, 0, 255, 0.15) 0%, transparent 70%);
-            transform: translateY(100%);
-            transition: transform 0.5s ease;
-            z-index: 1;
-        }
-
-        .premium-card:hover::before {
-            transform: translateY(0);
-        }
-
-        .premium-card:hover {
-            transform: translateY(-8px);
-            border-color: var(--neon-blue);
-            box-shadow: 0 10px 30px rgba(0, 240, 255, 0.1);
-        }
-
-        .card-content {
-            position: relative;
-            z-index: 5;
-        }
-
-        .card-badge {
-            font-size: 0.75rem;
-            color: var(--neon-lime);
-            text-transform: uppercase;
-            font-weight: 700;
-            letter-spacing: 1px;
-            margin-bottom: 1rem;
-            display: block;
-        }
-
-        .card-title {
-            font-family: var(--font-display);
-            font-size: 1.5rem;
-            margin-bottom: 1rem;
-        }
-
-        .price-box {
-            margin: 1.5rem 0;
-        }
-
-        .old-price {
-            text-decoration: line-through;
-            color: var(--text-muted);
-            font-size: 1rem;
-            margin-right: 0.5rem;
-        }
-
-        .new-price {
-            font-size: 2rem;
-            font-weight: 800;
-            color: #fff;
-            font-family: var(--font-display);
-        }
-
-        /* --- TRUSTED CONTACT / GLOBAL MAP INFO FOOTER --- */
-        .footer-agency {
-            background: #020204;
-            border-top: 1px solid rgba(255, 255, 255, 0.05);
-            padding: 4rem 2rem;
-        }
-
-        .footer-grid {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 3rem;
-        }
-
-        .footer-info h3 {
-            font-family: var(--font-display);
-            color: #fff;
-            margin-bottom: 1.5rem;
-            font-size: 1.4rem;
-        }
-
-        .footer-info p {
-            color: var(--text-muted);
-            line-height: 1.6;
-            margin-bottom: 1rem;
-        }
-
-        .contact-link {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-      
+</body>
+</html>
